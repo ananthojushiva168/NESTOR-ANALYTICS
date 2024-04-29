@@ -1,0 +1,54 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+.navsec{
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: center;
+    color: chocolate;
+}
+
+.btn_box{
+    text-align: center;
+    padding-top: 10px;
+}
+.del_btn{
+    border: 2px solid;
+    width: fit-content;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+}
+.Add_btn{
+    border: 2px solid;
+    width: fit-content;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background-color: #2250dd;
+    color: #fff;
+}
+.input_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.iframe_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.input_field_box{
+    display: flex;
+    align-items: center;
+}
